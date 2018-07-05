@@ -1,0 +1,33 @@
+<!doctype html>
+<html>
+
+<head>
+  <title>Week 01 D3JS experiments</title>
+  <script src="https://d3js.org/d3.v5.min.js"></script>
+</head>
+
+<body>
+  <p>This is a paragraph.</p>
+  <p>But this one is too!</p>
+  <p>And here!</p>
+  <p>A fourth paragraph is present.</p>
+
+  <script>
+    document.addEventListener('DOMContentLoaded', () => {
+      d3.selectAll('p').style('color', 'red');
+      d3.select('body').style('background-color', 'khaki');
+
+      d3.selectAll('p').style('color', () => `hsl(${Math.random() * 360}, 100%, 30%)`);
+
+      d3.selectAll("p").style("background-color", (d, i) => {
+        return i % 2 ? "#fff" : "#ddd";
+      });
+
+      d3.selectAll('p')
+        .data([18, 12, 40, 24])
+        .style('font-size', d => `${d}px`);
+    });
+  </script>
+</body>
+
+</html>
