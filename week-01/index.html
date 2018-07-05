@@ -7,10 +7,18 @@
 </head>
 
 <body>
+  <div>Based on <a href="https://d3js.org/#introduction">https://d3js.org/#introduction</a></div>
+
+  <hr>
+
   <p>This is a paragraph.</p>
   <p>But this one is too!</p>
   <p>And here!</p>
   <p>A fourth paragraph is present.</p>
+
+  <hr>
+
+  <div id='enter-and-exit'></div>
 
   <script>
     document.addEventListener('DOMContentLoaded', () => {
@@ -26,6 +34,36 @@
       d3.selectAll('p')
         .data([18, 12, 40, 24])
         .style('font-size', d => `${d}px`);
+
+      const transform = d => `I'm number ${d}!!`;
+      const points = [12, 16, 20, 24];
+
+      const paragraphs = d3.select('#enter-and-exit')
+        .selectAll('p')
+        .data(points)
+        .text(transform);
+
+      paragraphs.enter().append('p').text(transform);
+
+      paragraphs.exit().remove();
+
+      d3.select('body')
+        .transition()
+        .duration(5000)
+        .ease(d3.easeLinear)
+        .style('background-color', 'coral');
+
+      d3.selectAll('p')
+        .transition()
+        .duration(1500)
+        .delay((d, i) => i * 500)
+        .style('background-color', 'pink');
+
+      d3.selectAll('p')
+        .transition()
+        .duration(1000)
+        .delay((d, i) => i * 750)
+        .style('padding', '16px');
     });
   </script>
 </body>
