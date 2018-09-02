@@ -61,4 +61,8 @@ Skipped, because I was busy with [an OAuth2 Coding Dojo](https://github.com/jero
 
 ## Week 09
 
+![week-09/demo-week-09.gif](week-09/demo-week-09.gif)
+
+## Week 10
+
 ...
