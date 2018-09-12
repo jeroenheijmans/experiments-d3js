@@ -65,4 +65,16 @@ Skipped, because I was busy with [an OAuth2 Coding Dojo](https://github.com/jero
 
 ## Week 10
 
+First part of [Force Layout on Pluralsight](https://app.pluralsight.com/library/courses/force-layout-graphs-d3).
+
+## Week 11
+
+Second part of [Force Layout on Pluralsight](https://app.pluralsight.com/library/courses/force-layout-graphs-d3).
+
+## Week 12
+
 ...
+
+## Week 13
+
+Vacation!
