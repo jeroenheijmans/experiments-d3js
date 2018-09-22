@@ -19,7 +19,7 @@ These experiments were done over the course of three months in 2018. An overview
 | 09   | August 27    | September 2  |               |
 | 10   | September 3  | September 9  |               |
 | 11   | September 10 | September 16 |               |
-| 12   | September 17 | September 23 |               |
+| 12   | September 17 | September 23 | Vacation!     |
 | 12   | September 23 | September 30 | Vacation!     |
 
 ## Results
@@ -73,7 +73,7 @@ Second part of [Force Layout on Pluralsight](https://app.pluralsight.com/library
 
 ## Week 12
 
-...
+Vacation!
 
 ## Week 13
 
