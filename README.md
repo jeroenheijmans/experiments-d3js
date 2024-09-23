@@ -2,6 +2,10 @@
 
 This repository contains some personal experiments and tutorial results around D3JS.
 
+## ⚠️ Notice about updates
+
+Note that this repository is provided "as-is" and will most likely not receive any (security) updates.
+
 ## Schedule
 
 These experiments were done over the course of three months in 2018. An overview:
